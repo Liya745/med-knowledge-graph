@@ -1,17 +1,24 @@
 # 项目相关配置
 medkg:
   # 名称
-  name: RuoYi
+  name: 医知科普
   # 版本
   version: 3.9.2
   # 版权年份
   copyrightYear: 2026
   # 文件路径 示例（ Windows配置D:/ruoyi/uploadPath，Linux配置 /home/ruoyi/uploadPath）
-  profile: D:/ruoyi/uploadPath
+  profile: E:/med-knowledge-graph/medkg-files
   # 获取ip地址开关
   addressEnabled: false
   # 验证码类型 math 数字计算 char 字符验证
   captchaType: math
+
+# 阿里云OSS配置
+  oss:
+    bucket: med-knowledge-graph
+    region: cn-beijing
+    access-key-id: "${OSS_ACCESS_KEY_ID:LTAI5t9nPFbXnGECmWN75Qoe}"
+    access-key-secret: "${OSS_ACCESS_KEY_SECRET:fK9XqZsinNNZkvxWEK9eXySyJlv5gL}"
 
 # 开发环境配置
 server:
@@ -145,3 +152,4 @@ xss:
   excludes: /system/notice
   # 匹配链接
   urlPatterns: /system/*,/monitor/*,/tool/*
+
