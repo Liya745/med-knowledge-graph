@@ -1,5 +1,5 @@
 # 项目相关配置
-ruoyi:
+medkg:
   # 名称
   name: RuoYi
   # 版本
@@ -78,7 +78,7 @@ spring:
       # 数据库索引
       database: 0
       # 密码
-      password:
+      password: AABBCC1172924409
       # 连接超时时间
       timeout: 10s
       lettuce:
