@@ -17,8 +17,8 @@ medkg:
   oss:
     bucket: med-knowledge-graph
     region: cn-beijing
-    access-key-id: "${OSS_ACCESS_KEY_ID:LTAI5t9nPFbXnGECmWN75Qoe}"
-    access-key-secret: "${OSS_ACCESS_KEY_SECRET:fK9XqZsinNNZkvxWEK9eXySyJlv5gL}"
+    access-key-id: "${OSS_ACCESS_KEY_ID:}"
+    access-key-secret: "${OSS_ACCESS_KEY_SECRET:}"
 
 # 开发环境配置
 server:
